@@ -1,10 +1,10 @@
 import React from 'react'
 import { PoolsContainer } from './PoolsStyles'
 
-const Pool = () => {
+const Pools = () => {
   return (
     <PoolsContainer>Pools</PoolsContainer>
   )
 }
 
-export default Pool
+export default Pools

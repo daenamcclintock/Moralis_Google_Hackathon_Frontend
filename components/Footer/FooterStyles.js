@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-export const PoolsContainer = styled.div`
+export const FooterContainer = styled.div`
 
 `

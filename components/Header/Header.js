@@ -1,7 +1,7 @@
 import React from 'react'
 import { ConnectButton } from "web3uikit"
 import Link from "next/link"
-import { HeaderContainer, Links } from './HeaderStyles'
+import { HeaderContainer, Tag } from './HeaderStyles'
 
 const Header = () => {
   return (
@@ -9,16 +9,16 @@ const Header = () => {
         <h1 className="py-4 px-4 font-bold text-3xl">Moralis x Google Hackathon App</h1>
         <HeaderContainer className="flex flex-row items-center">
             <Link href="/">
-                <Links className="mr-4 p-6">Home</Links>
+                <Tag className="mr-4 p-6">Home</Tag>
             </Link>
-            <Link href="/">
-                <Links className="mr-4 p-6">Dashboard</Links>
+            <Link href="/dashboard">
+                <Tag className="mr-4 p-6">Dashboard</Tag>
             </Link>
             <Link href="/shops">
-                <Links className="mr-4 p-6">Shops</Links>
+                <Tag className="mr-4 p-6">Shops</Tag>
             </Link>
             <Link href="/pools">
-                <Links className="mr-4 p-6">Pools</Links>
+                <Tag className="mr-4 p-6">Pools</Tag>
             </Link>
             <ConnectButton moralisAuth={false} />
         </HeaderContainer>

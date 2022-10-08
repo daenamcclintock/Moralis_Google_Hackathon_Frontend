@@ -1,9 +1,10 @@
 import React from 'react'
+import Pools from '../components/Pools/Pools'
 
-const Pools = () => {
+const PoolsPage = () => {
   return (
-    <div>Liquidity Pools</div>
+    <Pools />
   )
 }
 
-export default Pools
+export default PoolsPage

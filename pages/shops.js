@@ -1,9 +1,10 @@
 import React from 'react'
+import Shops from '../components/Shops/Shops'
 
-const Shops = () => {
+const ShopsPage = () => {
   return (
-    <div>All Shops</div>
+    <Shops />
   )
 }
 
-export default Shops
+export default ShopsPage

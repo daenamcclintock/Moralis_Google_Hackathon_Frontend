@@ -4,6 +4,7 @@ import { useMoralisQuery, useMoralis } from "react-moralis"
 import Footer from "../components/Footer/Footer"
 import Protocol from "../components/Landing/Protocol/Protocol"
 import Partners from "../components/Landing/Partners/Partners"
+import Rewards from "../components/Landing/Rewards/Rewards"
 
 const Home = () => {
   const { isWeb3Enabled } = useMoralis()
@@ -26,9 +27,10 @@ const Home = () => {
                     <div>Web3 Currently Not Enabled. Please connect your wallet.</div>
                 )}
             </div>
+            <Hero />
             <Partners />
             <Protocol />
-
+            <Rewards />
             <Footer />
         </div>
   )

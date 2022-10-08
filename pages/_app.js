@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <div>
           <Head>
               <title>Moralis x Google Hackathon App</title>
-              <meta name="description" content="NFT Marketplace" />
+              <meta name="description" content="Hackathon" />
               <link rel="icon" href="/favicon.ico" />
           </Head>
           <MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>

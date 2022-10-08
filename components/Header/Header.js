@@ -1,23 +1,27 @@
 import React from 'react'
 import { ConnectButton } from "web3uikit"
 import Link from "next/link"
+import { HeaderContainer, Links } from './HeaderStyles'
 
 const Header = () => {
   return (
     <nav className="p-5 border-b-2 flex flex-row justify-between items-center">
         <h1 className="py-4 px-4 font-bold text-3xl">Moralis x Google Hackathon App</h1>
-        <div className="flex flex-row items-center">
+        <HeaderContainer className="flex flex-row items-center">
             <Link href="/">
-                <a className="mr-4 p-6">Home</a>
+                <Links className="mr-4 p-6">Home</Links>
+            </Link>
+            <Link href="/">
+                <Links className="mr-4 p-6">Dashboard</Links>
             </Link>
             <Link href="/shops">
-                <a className="mr-4 p-6">Shops</a>
+                <Links className="mr-4 p-6">Shops</Links>
             </Link>
             <Link href="/pools">
-                <a className="mr-4 p-6">Pools</a>
+                <Links className="mr-4 p-6">Pools</Links>
             </Link>
             <ConnectButton moralisAuth={false} />
-        </div>
+        </HeaderContainer>
     </nav>
   )
 }

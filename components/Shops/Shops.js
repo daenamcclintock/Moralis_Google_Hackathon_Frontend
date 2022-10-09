@@ -3,7 +3,9 @@ import { ShopsContainer } from './ShopsStyles'
 
 const Shops = () => {
   return (
-    <ShopsContainer>Shops</ShopsContainer>
+    <ShopsContainer>
+        Shops
+    </ShopsContainer>
   )
 }
 

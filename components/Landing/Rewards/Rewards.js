@@ -3,7 +3,9 @@ import { RewardsContainer } from './RewardsStyles'
 
 const Rewards = () => {
   return (
-    <RewardsContainer>Rewards</RewardsContainer>
+    <RewardsContainer>
+        Rewards
+    </RewardsContainer>
   )
 }
 

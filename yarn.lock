@@ -1876,6 +1876,16 @@
     "@web3uikit/styles" "*"
     react-router-dom "^6.3.0"
 
+"@web3uikit/core@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@web3uikit/core/-/core-0.1.13.tgz#0d4bff8ba2f495ba1c3765e425e51cdcc7f1951f"
+  integrity sha512-rVoRu5qDp8f84XRhIupkSUsVy1MtwA88dOTp1AbCX8mvz9W/eq4Erh9z5H6202RaLFihRK6vbh2acR90FLFmYw==
+  dependencies:
+    "@web3uikit/config" "*"
+    "@web3uikit/icons" "*"
+    "@web3uikit/styles" "*"
+    react-router-dom "^6.3.0"
+
 "@web3uikit/icons@*":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@web3uikit/icons/-/icons-0.1.12.tgz#28dc98e617d41ba02d7bcdc1b8fc90fde4ae9f91"

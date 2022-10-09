@@ -3,7 +3,9 @@ import { PoolsContainer } from './PoolsStyles'
 
 const Pools = () => {
   return (
-    <PoolsContainer>Pools</PoolsContainer>
+    <PoolsContainer>
+        Pools
+    </PoolsContainer>
   )
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProtocolContainer, CryptoCardsContainer } from './ProtocolStyles'
+import { ProtocolContainer, CryptoCardsContainer, ProtocolDescriptionConstainer, ProtocolDescription } from './ProtocolStyles'
 import { CryptoCards, Button } from '@web3uikit/core'
 
 const Protocol = () => {
@@ -12,7 +12,11 @@ const Protocol = () => {
 
   return (
     <ProtocolContainer>
-        Protocol
+        <ProtocolDescriptionConstainer>
+          <ProtocolDescription>
+            Polygon is a decentralised layer two Ethereum scaling platform that enables developers to build scalable user-friendly dApps with low transaction fees while inheriting the security of the Ethereum blockchain.
+          </ProtocolDescription>
+        </ProtocolDescriptionConstainer>
         <CryptoCardsContainer>
           <CryptoCards 
               chain="polygon" 

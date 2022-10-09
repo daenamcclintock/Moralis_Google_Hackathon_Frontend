@@ -20,8 +20,6 @@ const Home = () => {
 
   return (
     <LandingContainer>
-      <div className="container mx-auto">
-        <h1 className="py-4 px-4 font-bold text-2xl"></h1>
         <div className="flex flex-wrap">
             {isWeb3Enabled ? (
                 <div>Display Shopify Store Data Here</div>
@@ -36,7 +34,6 @@ const Home = () => {
         <Protocol />
         <Rewards />
         <Footer />
-      </div>
     </LandingContainer>
   )
 }

@@ -5,6 +5,7 @@ import Footer from "../components/Footer/Footer"
 import Protocol from "../components/Landing/Protocol/Protocol"
 import Partners from "../components/Landing/Partners/Partners"
 import Rewards from "../components/Landing/Rewards/Rewards"
+import Hero from "../components/Landing/Hero/Hero"
 
 const Home = () => {
   const { isWeb3Enabled } = useMoralis()

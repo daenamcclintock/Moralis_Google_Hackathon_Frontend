@@ -1,7 +1,6 @@
 import React from 'react'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import { FaDiscord } from "react-icons/fa";
-import { MdEmail, MdPhoneIphone } from "react-icons/md";
 import { CompanyContainer, FooterContainer, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, SocialIcons } from './FooterStyles';
 
 const Footer = () => {

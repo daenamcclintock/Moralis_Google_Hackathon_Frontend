@@ -1,11 +1,16 @@
 import React from 'react'
-import { RewardsContainer } from './RewardsStyles'
+import { RewardsContainer, RewardsTitleContainer, RewardsTitle } from './RewardsStyles'
 
 const Rewards = () => {
   return (
-    <RewardsContainer>
-        Rewards
-    </RewardsContainer>
+    <>
+      <RewardsTitleContainer>
+        <RewardsTitle>Rewards</RewardsTitle>
+      </RewardsTitleContainer>
+      <RewardsContainer>
+          
+      </RewardsContainer>
+    </>
   )
 }
 

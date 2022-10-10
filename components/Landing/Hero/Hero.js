@@ -1,11 +1,16 @@
 import React from 'react'
-import { HeroContainer } from './HeroStyles'
+import { HeroContainer, HeroTitleContainer, HeroTitle } from './HeroStyles'
 
 const Hero = () => {
   return (
-    <HeroContainer>
-        Hero
-    </HeroContainer>
+    <>
+      <HeroTitleContainer>
+        <HeroTitle>Hero</HeroTitle>
+      </HeroTitleContainer>
+      <HeroContainer>
+          
+      </HeroContainer>
+    </>
   )
 }
 

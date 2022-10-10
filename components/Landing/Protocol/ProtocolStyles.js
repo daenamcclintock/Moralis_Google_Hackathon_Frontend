@@ -13,6 +13,7 @@ export const ProtocolTitle = styled.h1`
     margin-left: 2rem;
     font-weight:bold;
     font-size: 26px;
+    font-family: Space Grotesk, sans-serif;
 `
 
 export const CryptoCardsContainer = styled.div`
@@ -30,4 +31,5 @@ export const ProtocolDescriptionConstainer = styled.div`
 
 export const ProtocolDescription = styled.p`
     text-align: center;
+    font-family: Space Grotesk, sans-serif;
 `

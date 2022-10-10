@@ -1,11 +1,15 @@
 import React from 'react'
-import { PartnersContainer } from './PartnersStyles'
+import { PartnersContainer, PartnersTitleContainer , PartnersTitle} from './PartnersStyles'
 
 const Partners = () => {
   return (
+    <>
+    <PartnersTitleContainer>
+      <PartnersTitle>Parters</PartnersTitle>
+    </PartnersTitleContainer>
     <PartnersContainer>
-        Partners
     </PartnersContainer>
+    </>
   )
 }
 

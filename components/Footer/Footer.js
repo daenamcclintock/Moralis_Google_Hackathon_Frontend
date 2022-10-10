@@ -12,7 +12,7 @@ const Footer = () => {
           <Slogan>This website was designed and developed by Daena McClintock, Fabian Acosta, and Yazeed Hani</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/daenamcclintock/Moralix_Google_Hackathon_Frontend">
+          <SocialIcons href="https://github.com/daenamcclintock/Moralis_Google_Hackathon_Frontend">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons href="discordapp.com/users/dcm13#3056">

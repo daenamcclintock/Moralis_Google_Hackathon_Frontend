@@ -1,17 +1,25 @@
 import React from 'react'
 import { HeroContainer, HeroTitleContainer, HeroTitle } from './HeroStyles'
+import { Hero } from '@web3uikit/core'
 
-const Hero = () => {
+const Heros = () => {
   return (
     <>
-      <HeroTitleContainer>
+      {/* <HeroTitleContainer>
         <HeroTitle>Hero</HeroTitle>
-      </HeroTitleContainer>
+      </HeroTitleContainer> */}
       <HeroContainer>
-          
       </HeroContainer>
+      <Hero
+        backgroundURL='http://clevadesk.com/wp-content/uploads/2018/11/home-page-hero-background-1030x378.jpeg'
+        title='Google x Moralis Hackathon'
+        textColor='white'
+        height='66vh'
+        padding='10px'
+        align='center'
+      />
     </>
   )
 }
 
-export default Hero
+export default Heros

@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer"
 import Protocol from "../components/Landing/Protocol/Protocol"
 import Partners from "../components/Landing/Partners/Partners"
 import Rewards from "../components/Landing/Rewards/Rewards"
-import Hero from "../components/Landing/Hero/Hero"
+import Heros from "../components/Landing/Hero/Hero"
 import Metrics from "../components/Landing/Metrics/Metrics"
 import { LandingContainer } from "../components/Landing/LandingStyles"
 
@@ -28,7 +28,7 @@ const Home = () => {
                 <div>Web3 Currently Not Enabled. Please connect your wallet.</div>
             )}
         </div>
-        <Hero />
+        <Heros />
         <Metrics />
         <Partners />
         <Protocol />

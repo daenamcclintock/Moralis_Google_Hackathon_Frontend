@@ -8,6 +8,7 @@ import Rewards from "../components/Landing/Rewards/Rewards"
 import Heros from "../components/Landing/Hero/Hero"
 import Metrics from "../components/Landing/Metrics/Metrics"
 import { LandingContainer } from "../components/Landing/LandingStyles"
+import { Card } from "@web3uikit/core"
 
 const Home = () => {
   const { isWeb3Enabled } = useMoralis()
@@ -18,11 +19,26 @@ const Home = () => {
   //   (query) => query.limit(10).descending("tokenId")
   // )
 
+  const shopifyStores = [
+    {storeName: 'MyStore', description: '', category: 'electronics', image: ''},
+    {storeName: 'MyStore', description: '', category: 'electronics', image: ''},
+    {storeName: 'MyStore', description: '', category: 'electronics', image: ''},
+  ]
+
   return (
     <LandingContainer>
         <div className="flex flex-wrap">
             {isWeb3Enabled ? (
-                <div>Display Shopify Store Data Here</div>
+                shopifyStores.map((store) => {
+                  return (
+                    <div>
+                      {/* <Card 
+                        title={store.storeName}
+                        description={store.description}
+                      />  */}
+                    </div>
+                  )
+                })
             )
                   : (
                 <div>Web3 Currently Not Enabled. Please connect your wallet.</div>

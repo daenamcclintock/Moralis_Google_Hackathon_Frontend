@@ -2,6 +2,8 @@ import React from 'react'
 import { HeroContainer, HeroTitleContainer, HeroTitle } from './HeroStyles'
 import { Hero } from '@web3uikit/core'
 import Coin from '../Coin/Coin'
+import Box from '../Coin/Box'
+import { Canvas, useFrame } from '@react-three/fiber'
 
 const Heros = () => {
   return (
@@ -18,7 +20,7 @@ const Heros = () => {
         align='right'
         // customImage={{url: "/images/DeFi.png"}}
       />
-      <Canvas>
+      {/* <Canvas>
         <ambientLight color={0xffffff} intensity={0.5} />
         <pointLight color={0xff4422} intensity={1} position={[-1, -1, 3]} />
         <pointLight color={0x44ff88} intensity={1} position={[1, 2, 3]} />
@@ -26,6 +28,12 @@ const Heros = () => {
         <Suspense>
         <Coin position={[-3, 1, 2]}/>
         </Suspense>
+      </Canvas> */}
+      <Canvas>
+        <ambientLight />
+        <pointLight position={[10, 10, 10]} />
+        <Box position={[-1.2, 0, 0]} />
+        <Box position={[1.2, 0, 0]} />
       </Canvas>
     </>
   )

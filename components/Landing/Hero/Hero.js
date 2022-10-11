@@ -8,13 +8,14 @@ const Heros = () => {
       <Hero
         // backgroundURL='http://clevadesk.com/wp-content/uploads/2018/11/home-page-hero-background-1030x378.jpeg'
         // backgroundURL='/images/shopify.png'
-        backgroundColor='darkgrey'
+        backgroundColor='rgb(120, 120, 120)'
         title='Google x Moralis Hackathon'
+        subTitle='Shopify Token Rewards'
         textColor='white'
         height='66vh'
         padding='10px'
         align='right'
-        // customImage={{url: "/images/shopify.png"}}
+        // customImage={{url: "/images/DeFi.png"}}
       />
     </>
   )

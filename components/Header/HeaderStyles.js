@@ -6,9 +6,9 @@ export const HeaderContainer = styled.div`
 
 export const Tag = styled.a`
 
-&:hover {
-    color: #fff;
-    opacity: 1;
-    cursor: pointer;
-  }
+  &:hover {
+      color: rgb(138, 2, 217);
+      opacity: 1;
+      cursor: pointer;
+    }
 `

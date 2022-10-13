@@ -21,13 +21,13 @@ const Heros = () => {
         align='right'
         // customImage={{url: "/images/DeFi.png"}}
       >
-        <Canvas>
-        <ambientLight color={0xffffff} intensity={0.5} />
-        <pointLight color={0xff4422} intensity={1} position={[-1, -1, 3]} />
-        <pointLight color={0x44ff88} intensity={1} position={[1, 2, 3]} />
-        <pointLight color={0xdd3311} intensity={1} position={[0, 3, 2]} />
-        <Three position={[0, 0.3, 3]} />
-        </Canvas>
+        {/* <Canvas>
+          <ambientLight color={0xffffff} intensity={0.5} />
+          <pointLight color={0xff4422} intensity={1} position={[-1, -1, 3]} />
+          <pointLight color={0x44ff88} intensity={1} position={[1, 2, 3]} />
+          <pointLight color={0xdd3311} intensity={1} position={[0, 3, 2]} />
+          <Three position={[0, 0.3, 3]} />
+        </Canvas> */}
       </Hero>
       {/* <Canvas>
         <ambientLight color={0xffffff} intensity={0.5} />

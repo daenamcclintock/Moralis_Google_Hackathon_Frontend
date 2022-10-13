@@ -10,7 +10,7 @@ const Header = () => {
     <>
     <nav className="border-b-2 flex flex-row justify-between items-center">
         <div className="flex flex-row justify-between items-center">
-            <Canvas>
+            <Canvas style={{width: '40%', height: '50%', disply: 'flex', margin:'auto', padding: 'auto'}}>
                 <ambientLight color={0xffffff} intensity={0.5} />
                 <pointLight color={0xff4422} intensity={1} position={[-1, -1, 3]} />
                 <pointLight color={0x44ff88} intensity={1} position={[1, 2, 3]} />

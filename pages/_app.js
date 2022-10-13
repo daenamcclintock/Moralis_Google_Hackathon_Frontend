@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
                   <Component {...pageProps} />
               </NotificationProvider>
           </MoralisProvider>
-          <Popover id="TbWRpr46" />
+          <Popover id="ZQwkLZIP" />
       </div>
     )
 }

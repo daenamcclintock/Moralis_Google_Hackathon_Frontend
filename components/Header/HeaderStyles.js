@@ -12,3 +12,7 @@ export const Tag = styled.a`
       cursor: pointer;
     }
 `
+
+export const Logo = styled.img`
+    width: 120px;
+`

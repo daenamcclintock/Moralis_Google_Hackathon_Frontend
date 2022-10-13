@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-three/fiber": "^8.8.10",
+    "@typeform/embed-react": "^2.1.0",
     "@web3uikit/core": "^0.1.13",
     "moralis": "^2.6.0",
     "moralis-admin-cli": "^2.1.16",

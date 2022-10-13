@@ -8,7 +8,7 @@ const Footer = () => {
     <FooterContainer>
         <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>This website was designed and developed by Daena McClintock, Fabian Acosta, and Yazeed Hani</Slogan>
+          <Slogan>Footer</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/daenamcclintock/Moralis_Google_Hackathon_Frontend">

@@ -6,12 +6,10 @@ export const MetricsContainer = styled.div`
 
 export const MetricsTitleContainer = styled.div`
     display: inline;
-    margin-left: 2rem;
 `
 
 export const MetricsTitle = styled.h1`
-    margin: 1rem;
-    margin-left: 2rem;
+    margin: 2rem;
     font-weight:bold;
     font-size: 26px;
     font-family: Space Grotesk, sans-serif;

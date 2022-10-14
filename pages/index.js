@@ -19,12 +19,6 @@ const Home = () => {
   //   (query) => query.limit(10).descending("tokenId")
   // )
 
-  const shopifyStores = [
-    {storeName: 'MyStore', description: 'This store sells electronics', category: 'electronics', image: '', link: 'https://www.shopify.com/'},
-    {storeName: 'MyStore', description: 'This store sells clothes', category: 'clothes', image: '', link: 'https://www.shopify.com/'},
-    {storeName: 'MyStore', description: 'This store sells shoes', category: 'shoes', image: '', link: 'https://www.shopify.com/'},
-  ]
-
   return (
     <LandingContainer>
         <Heros />

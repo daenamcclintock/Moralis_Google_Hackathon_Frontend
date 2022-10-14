@@ -8,7 +8,6 @@ import Rewards from "../components/Landing/Rewards/Rewards"
 import Heros from "../components/Landing/Hero/Hero"
 import Metrics from "../components/Landing/Metrics/Metrics"
 import { LandingContainer } from "../components/Landing/LandingStyles"
-import { Card, Illustration } from "@web3uikit/core"
 import PopularStores from "../components/PopularStores/PopularStores"
 
 const Home = () => {

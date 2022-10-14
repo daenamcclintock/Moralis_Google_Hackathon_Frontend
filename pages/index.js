@@ -8,7 +8,8 @@ import Rewards from "../components/Landing/Rewards/Rewards"
 import Heros from "../components/Landing/Hero/Hero"
 import Metrics from "../components/Landing/Metrics/Metrics"
 import { LandingContainer } from "../components/Landing/LandingStyles"
-import { Card } from "@web3uikit/core"
+import { Card, Illustration } from "@web3uikit/core"
+import PopularStores from "../components/PopularStores/PopularStores"
 
 const Home = () => {
   const { isWeb3Enabled } = useMoralis()
@@ -20,31 +21,15 @@ const Home = () => {
   // )
 
   const shopifyStores = [
-    {storeName: 'MyStore', description: '', category: 'electronics', image: ''},
-    {storeName: 'MyStore', description: '', category: 'electronics', image: ''},
-    {storeName: 'MyStore', description: '', category: 'electronics', image: ''},
+    {storeName: 'MyStore', description: 'This store sells electronics', category: 'electronics', image: '', link: 'https://www.shopify.com/'},
+    {storeName: 'MyStore', description: 'This store sells clothes', category: 'clothes', image: '', link: 'https://www.shopify.com/'},
+    {storeName: 'MyStore', description: 'This store sells shoes', category: 'shoes', image: '', link: 'https://www.shopify.com/'},
   ]
 
   return (
     <LandingContainer>
-        <div className="flex flex-wrap">
-            {isWeb3Enabled ? (
-                shopifyStores.map((store) => {
-                  return (
-                    <div>
-                      {/* <Card 
-                        title={store.storeName}
-                        description={store.description}
-                      />  */}
-                    </div>
-                  )
-                })
-            )
-                  : (
-                <div>Web3 Currently Not Enabled. Please connect your wallet.</div>
-            )}
-        </div>
         <Heros />
+        <PopularStores isWeb3Enabled={isWeb3Enabled}/>
         <Metrics />
         <Partners />
         <Protocol />

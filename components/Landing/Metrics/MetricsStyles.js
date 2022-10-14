@@ -10,6 +10,7 @@ export const MetricsTitleContainer = styled.div`
 `
 
 export const MetricsTitle = styled.h1`
+    margin: 1rem;
     margin-left: 2rem;
     font-weight:bold;
     font-size: 26px;

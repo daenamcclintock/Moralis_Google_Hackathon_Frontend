@@ -41,6 +41,7 @@ const Pools = () => {
   return (
     <PoolsContainer className="Uniswap">
         {/* <SwapWidget provider={web3} jsonRpcUrlMap={jsonRpcUrlMap} tokenList={MY_TOKEN_LIST} /> */}
+        Pools
     </PoolsContainer>
   )
 }

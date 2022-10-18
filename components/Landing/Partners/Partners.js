@@ -1,5 +1,6 @@
 import React from 'react'
 import { PartnersContainer, PartnersTitleContainer , PartnersTitle} from './PartnersStyles'
+import { Information, Card, Logo } from 'web3uikit'
 
 const Partners = () => {
   return (
@@ -7,7 +8,7 @@ const Partners = () => {
     <PartnersTitleContainer>
       <PartnersTitle>Parters</PartnersTitle>
     </PartnersTitleContainer>
-    <PartnersContainer>
+    <PartnersContainer className='gap-4 content-evenly'>
     </PartnersContainer>
     </>
   )

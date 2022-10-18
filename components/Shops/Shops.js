@@ -8,6 +8,9 @@ const Shops = (props) => {
     {storeName: 'My Store', description: 'This store sells electronics', category: 'electronics', image: '', link: 'https://www.shopify.com/'},
     {storeName: 'My Store', description: 'This store sells clothes', category: 'clothes', image: '', link: 'https://www.shopify.com/'},
     {storeName: 'My Store', description: 'This store sells shoes', category: 'shoes', image: '', link: 'https://www.shopify.com/'},
+    {storeName: 'My Store', description: 'This store sells collectibles', category: 'collectibles', image: '', link: 'https://www.shopify.com/'},
+    {storeName: 'My Store', description: 'This store sells handmade crafts', category: 'crafts', image: '', link: 'https://www.shopify.com/'},
+    {storeName: 'My Store', description: 'This store sells used iphones', category: 'electronics', image: '', link: 'https://www.shopify.com/'},
   ] 
 
   const { isWeb3Enabled } = props
@@ -15,11 +18,11 @@ const Shops = (props) => {
   return (
     <ShopsContainer>
         <div className="grid grid-cols-3 gap-4 content-evenly">
-                {isWeb3Enabled ? (
-                    shopifyStores.map((store) => {
-                        return (
-                        <div className="m-5" style={{width: '250px'}}>
-                            <a href={store.link} rel="noopener noreferrer" target="_blank">
+            {isWeb3Enabled ? (
+                shopifyStores.map((store) => {
+                    return (
+                    <div className="m-5" style={{width: '250px'}}>
+                        <a href={store.link} rel="noopener noreferrer" target="_blank">
                             <Card 
                                 title={store.storeName}
                                 description={store.description}
@@ -30,14 +33,14 @@ const Shops = (props) => {
                                 {/* <img src={store.image}/> */}
                                 </div>
                             </Card>
-                            </a>
-                        </div>
-                        )
-                    })
-                )
-                    : null
-                }
-            </div>
+                        </a>
+                    </div>
+                    )
+                })
+            )
+                : null
+            }
+        </div>
     </ShopsContainer>
   )
 }

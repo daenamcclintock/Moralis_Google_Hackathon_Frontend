@@ -16,8 +16,7 @@ const PopularStores = (props) => {
         <PopularStoresContainer>
             <PopularStoresTitle>Popular Stores</PopularStoresTitle>
             <div className="grid grid-cols-3 gap-4 content-evenly">
-                {isWeb3Enabled ? (
-                    shopifyStores.map((store) => {
+                {shopifyStores.map((store) => {
                         return (
                         <div className="m-5" style={{width: '250px'}}>
                             <a href={store.link} rel="noopener noreferrer" target="_blank">
@@ -35,8 +34,6 @@ const PopularStores = (props) => {
                         </div>
                         )
                     })
-                )
-                    : null
                 }
             </div>
         </PopularStoresContainer>

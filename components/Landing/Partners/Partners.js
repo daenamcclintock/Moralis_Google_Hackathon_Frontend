@@ -10,8 +10,8 @@ const Partners = () => {
 
   const documents = [
     {name: 'Moralis', type: 'Web3 APIs & SDKs', downloadLink: 'https://www.moralis.io/'},
-    {name: 'Polygon Labs', type: 'Layer I Blockchain', downloadLink: 'https://www.polygonlabs.us/'},
-    {name: 'Andreessen Horowitz', type: 'Venture Capital Fund', downloadLink: 'https://a16z.com/'}
+    {name: 'Google', type: 'Cloud Storage', downloadLink: 'https://www.google.com/'},
+    {name: 'Polygon Labs', type: 'Layer II Blockchain', downloadLink: 'https://www.polygonlabs.us/'},
   ]
 
   if (!documents) {

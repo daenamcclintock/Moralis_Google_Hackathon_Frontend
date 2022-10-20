@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const PartnersContainer = styled.div`
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 2rem;
 `
 
@@ -23,21 +25,5 @@ export const DocumentInfoContainer = styled.div`
 `
 
 export const DocumentDiv = styled.section`
-
-`
-
-export const DocumentNameDiv = styled.div`
-
-`
-
-export const DocumentName = styled.p`
-
-`
-
-export const DownloadButtonDiv = styled.div`
-
-`
-
-export const DownloadButton = styled.button`
 
 `

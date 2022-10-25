@@ -1,5 +1,5 @@
 import React from 'react'
-import { RewardsContainer, RewardsTitleContainer, RewardsTitle } from './RewardsStyles'
+import { RewardsContainer, RewardsTitleContainer, RewardsTitle, SectionDiv, Section } from './RewardsStyles'
 import { Button, Widget } from 'web3uikit'
 import Link from 'next/link'
 
@@ -35,8 +35,8 @@ const Rewards = () => {
         <RewardsTitle>Rewards</RewardsTitle>
       </RewardsTitleContainer>
       <RewardsContainer>
-        <div style={{ display: 'grid', gap: '20px', padding: '40px 20px' }}>
-            <section style={{ display: 'flex', gap: '20px' }}>
+        <SectionDiv>
+            <Section>
                 <Widget info="TKZ Price Appreciation" title="TOKENZ">
                   <Link href={'https://www.coingecko.com/'} target='_blank'>
                     <Button
@@ -61,8 +61,8 @@ const Rewards = () => {
                       />
                   </Link>
                 </Widget>
-            </section>
-            <section style={{ display: 'flex', gap: '20px' }}>
+            </Section>
+            <Section>
                 <Widget info="" title="WEB3 GAMING">
                   <Link href={''}>
                     <Button
@@ -111,8 +111,8 @@ const Rewards = () => {
                       />
                   </Link>
                 </Widget>
-            </section>
-        </div>
+            </Section>
+        </SectionDiv>
       </RewardsContainer>
     </>
   )

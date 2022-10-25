@@ -15,3 +15,14 @@ export const RewardsTitle = styled.h1`
     font-size: 26px;
     font-family: Space Grotesk, sans-serif;
 `
+
+export const SectionDiv = styled.div`
+    display: grid;
+    gap: 20px;
+    padding: 40px 20px;
+`
+
+export const Section = styled.section`
+    display: flex;
+    gap: 20px;
+`

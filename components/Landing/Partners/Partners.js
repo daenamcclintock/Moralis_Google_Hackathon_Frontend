@@ -37,7 +37,7 @@ const Partners = () => {
               <Tag color="blue" text={documents[i].type}/>,
               <a href={documents[i].downloadLink} style={{ textDecoration: 'none' }} target="_blank" >
                   <Button
-                      text={<>View Website &nbsp;<BiLink /></>}
+                      text={<>Visit Website &nbsp;<BiLink /></>}
                       // onClick={() => window.location.href = `${documents[i].downloadLink}`}
                   />
               </a>

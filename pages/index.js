@@ -8,7 +8,7 @@ import Rewards from "../components/Landing/Rewards/Rewards"
 import Heros from "../components/Landing/Hero/Hero"
 import Metrics from "../components/Landing/Metrics/Metrics"
 import { LandingContainer } from "../components/Landing/LandingStyles"
-import PopularStores from "../components/PopularStores/PopularStores"
+import PopularStores from "../components/Landing/PopularStores/PopularStores"
 
 const Home = () => {
   const { isWeb3Enabled } = useMoralis()

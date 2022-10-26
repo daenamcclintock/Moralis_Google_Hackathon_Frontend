@@ -9,15 +9,24 @@ import Heros from "../components/Landing/Hero/Hero"
 import Metrics from "../components/Landing/Metrics/Metrics"
 import { LandingContainer } from "../components/Landing/LandingStyles"
 import PopularStores from "../components/Landing/PopularStores/PopularStores"
+import { useEffect, useState } from "react"
 
 const Home = () => {
-  const { isWeb3Enabled } = useMoralis()
+  // const [userAddress, setUserAddress] = useState(null)
+  const { isWeb3Enabled, user, userAddress } = useMoralis()
   // const { data: listedNfts, isFetching: fetchingListedNfts } = useMoralisQuery(
   //   // TableName
   //   // Function for the query
   //   "ActiveItem",
   //   (query) => query.limit(10).descending("tokenId")
   // )
+  useEffect(() => {
+    if (isWeb3Enabled) {
+      // setUserAddress(user.attributes.ethAddress)
+      console.log(userAddress)
+      console.log(user)
+    }
+  }, [isWeb3Enabled]);
 
   return (
     <LandingContainer>
